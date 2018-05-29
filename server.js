@@ -15,6 +15,10 @@ app.use(
     }, 'pool')
 );
 
+app.get('/',(req,res) => {
+    res.send("hello world");
+});
+
 app.get('/api/hello', (req, res) => {
     req.getConnection((err,connection) => {
         if(err) console.log("Error connecting: %s", err);
