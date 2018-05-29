@@ -2,7 +2,6 @@
   "name": "reactexpress",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8000/",
   "dependencies": {
     "babel-core": "^6.26.3",
     "csv": "^2.0.0",
