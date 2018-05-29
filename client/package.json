@@ -7,10 +7,16 @@
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "express": "^4.16.2",
+    "csv": "^2.0.0",
+    "csv-parse": "~2.0.0",
+    "csv-write-stream": "^2.0.0",
+    "express-myconnection": "~1.0.4",
+    "mysql": "~2.2.0"
   },
   "scripts": {
-    "start": "PORT=3010 react-scripts start",
+    "start": "PORT=8010 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

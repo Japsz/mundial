@@ -16,7 +16,7 @@ app.use(
 );
 app.use( express.static( '${__dirname}/../build' ) );
 app.get('/',(req,res) => {
-    res.send("hello world");
+    res.send({ express:"hello world"});
 });
 
 app.get('/api/hello', (req, res) => {
