@@ -14,7 +14,7 @@ app.use(
         database: 'mundial'
     }, 'pool')
 );
-
+app.use( express.static( '${__dirname}/../build' ) );
 app.get('/',(req,res) => {
     res.send("hello world");
 });
