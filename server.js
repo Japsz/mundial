@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 var connection  = require('express-myconnection');
 var mysql = require('mysql');
 
@@ -9,7 +9,7 @@ app.use(
     connection(mysql, {
         host: '127.0.0.1',
         user: 'root',
-        password: '1234',
+        password: 'belitajump',
         port: 3306,
         database: 'mundial'
     }, 'pool')
